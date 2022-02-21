@@ -16,3 +16,6 @@ You basically just use the space bar to help Karate Colin jump over project obst
 ## Notes
 - This is using kaboom.js
 - I don't know why the font wouldn't load from a local asset on gh-pages, so I'm calling it from the raw github repo URL in main.js#loadFont()
+
+## Roadmap
+- [ ] Make mobile friendly (add tap/click listener, and fix assets/text sizes) 
