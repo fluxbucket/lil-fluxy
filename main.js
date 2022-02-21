@@ -146,7 +146,7 @@ add([
     origin("center"),
 ])
 add([
-    text('things that make him a gry'),
+    text('things that make him angry'),
     pos(width() / 2, height() / 2 + 250),
     scale(.4),
     origin("center"),
