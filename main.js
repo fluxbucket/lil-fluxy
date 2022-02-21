@@ -9,7 +9,7 @@ const SPEED = 300
 // Update to custom sprite
 loadSprite('colin', './images/colin-fit.png');
 loadSprite('bg', './images/bg.png');
-loadFont("dogica", "/fonts/02.png", 8, 8)
+loadFont("dogica", "https://raw.githubusercontent.com/fluxbucket/lil-fluxy/main/fonts/02.png", 8, 8)
 
 scene("game", () => {
     gravity(2400)
