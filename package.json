@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite --host",
-    "build": "vite build",
+    "build": "vite build && echo 'Built not deployed, npm run deploy for gh-pages'",
+    "deploy": "vite build && cp -r images dist && cp -r fonts dist && cp CNAME dist && cd dist && git add -A && git commit -m \"update for gh-pages\" && git push origin gh-pages",
     "preview": "vite preview"
   },
   "dependencies": {
